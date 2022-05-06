@@ -212,4 +212,8 @@ NAT(Network Address Transformation)
   - 대기상태 - 입출력 처리등으로 인해 CPU를 양도하고 대기중인 상태
   - 완료상태 - 주어진 시간 내에 처리가 완료된 상태
 
+서버 접근통제 유형
+  - 임의적 접근 통제 DAC(Discretionary Access Contorl) - 신분을 기반으로 접근 통제
+  - 강제적 접근 통제 MAC(Mandatory Access Control) - 시스템 정보 허용등급을 기준으로 사용자의 접근 허가 권한을 근거로 통제
+  - 역할 기준 접근 통제 RBAC(Role Based Access Control) - 조직 내 맡은 역할에 기초하여 통제
 
